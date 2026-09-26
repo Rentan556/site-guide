@@ -1,0 +1,260 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  line-height: 1.7;
+}
+
+header {
+  background: #000;
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+header p {
+  color: #aaa;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 28px;
+  border-left: 4px solid #fff;
+  padding-left: 12px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+main > div {
+  background: linear-gradient(135deg, #1c1c1c, #252525);
+  padding: 25px;
+  margin: 18px 0;
+  border-radius: 12px;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+main > div:hover {
+  border-color: #777;
+  transform: translateY(-6px);
+}
+
+main > div p {
+  color: #aaa;
+}
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+header img {
+  width: 300px;
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+header img {
+  transition: 0.3s;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+main > div {
+  transition: 0.3s;
+}
+
+main > div:hover {
+  transform: translateY(-5px);
+}
+nav a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #444;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+}
+header {
+  background: linear-gradient(135deg, #000, #222);
+}
+main > div a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+main > div a h3 {
+  margin-top: 0;
+}
+
+main > div a p {
+  margin-bottom: 0;
+}
+@media (max-width: 600px) {
+  header {
+    padding: 35px 15px;
+  }
+
+  header h1 {
+    font-size: 36px;
+  }
+
+  nav a {
+    margin: 5px;
+    padding: 7px 12px;
+  }
+
+  main {
+    padding: 0 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}.read-more {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: 1px solid #555;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+main > div:hover .read-more {
+  background: #fff;
+  color: #111;
+}
+.top-button {
+  display: block;
+  width: fit-content;
+  margin: 40px auto;
+  padding: 10px 20px;
+  border: 1px solid #555;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.top-button:hover {
+  background: #fff;
+  color: #111;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  background: #111;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #fff;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #ccc;
+}
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #fff;
+  background: #181818;
+}
+footer {
+  margin-top: 80px;
+  padding: 30px 20px;
+  text-align: center;
+  background: #000;
+  border-top: 1px solid #333;
+  color: #888;
+  font-size: 14px;
+}
+body {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.back-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 18px;
+  border: 1px solid #555;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background: #fff;
+  color: #111;
+}
